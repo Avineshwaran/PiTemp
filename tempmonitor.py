@@ -1,8 +1,8 @@
 #Interfacing Temperature Sensor DS18B20 
 
-inport os
+import os
 import glob
-inport time
+import time
 
 os.system ('modprob w1-gpio')
 os.system ('modprob w1-therm')
